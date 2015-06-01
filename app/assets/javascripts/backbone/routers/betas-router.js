@@ -6,7 +6,8 @@ Wincookie.Routers.BetasRouter = Backbone.Router.extend({
     index: function() {
         console.log('working');
         
-        var hbsTest = new Wincookie.Views.HbsTest();
+        hbsTest = new Wincookie.Views.HbsTest({el: '#hbs-test'});
+        hbsTest.render();
     }
     
 });

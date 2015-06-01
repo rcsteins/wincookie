@@ -14,8 +14,8 @@
 //= require jquery_ujs
 //= require twitter/bootstrap
 //= require underscore
+//= require handlebars.runtime
 //= require backbone
 //= require backbone/wincookie
-//= require handlebars.runtime
 //= require_tree ./backbone/templates
 //= require_tree .
