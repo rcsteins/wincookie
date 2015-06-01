@@ -14,25 +14,7 @@
 
     <%= stylesheet_link_tag "application", :media => "all" %>
 
-    <!-- For third-generation iPad with high-resolution Retina display: -->
-    <!-- Size should be 144 x 144 pixels -->
-    <%= favicon_link_tag 'apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144' %>
-
-    <!-- For iPhone with high-resolution Retina display: -->
-    <!-- Size should be 114 x 114 pixels -->
-    <%= favicon_link_tag 'apple-touch-icon-114x114-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '114x114' %>
-
-    <!-- For first- and second-generation iPad: -->
-    <!-- Size should be 72 x 72 pixels -->
-    <%= favicon_link_tag 'apple-touch-icon-72x72-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '72x72' %>
-
-    <!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
-    <!-- Size should be 57 x 57 pixels -->
-    <%= favicon_link_tag 'apple-touch-icon-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png' %>
-
-    <!-- For all other devices -->
-    <!-- Size should be 32 x 32 pixels -->
-    <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
+    <%= favicon_link_tag 'click5.png', :rel => 'shortcut icon' %>
 
     <%= javascript_include_tag "application" %>
   </head>
@@ -45,7 +27,10 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href='<%= root_path %>'>Pushbuttonwincookie</a>
+        <a class="navbar-brand" href='<%= root_path %>'> 
+			<%= image_tag 'click5.png', style:'display:inline-block; margin-top:-10px'%>
+			Pushbuttonwincookie
+		</a>
         <div class="navbar-collapse collapse navbar-responsive-collapse">
           <ul class="nav navbar-nav">
             <li><%= link_to "FAQ", faq_path  %></li>
@@ -65,7 +50,7 @@
       </div><!--/row-->
 
       <footer>
-        <p>&copy; Company 2015</p>
+		<div>Icons made by <a href="http://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>             is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a></div>
       </footer>
 
     </div> <!-- /container -->
