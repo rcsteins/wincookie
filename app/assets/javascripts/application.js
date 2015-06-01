@@ -17,5 +17,4 @@
 //= require handlebars.runtime
 //= require backbone
 //= require backbone/wincookie
-//= require_tree ./backbone/templates
 //= require_tree .
